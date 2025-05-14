@@ -11,7 +11,7 @@ def cadastrar():
     lista_numeros.append(int(numero_digitado))
     
     if(numero_digitado):
-        lp_lista.insert(tk.END, numero_digitado)
+        lp_lista.delete()
     
     entrada_user.delete(0)
     
